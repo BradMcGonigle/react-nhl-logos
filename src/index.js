@@ -1,6 +1,7 @@
 export { default as ANA } from "./logos/ana";
 export { default as ARI } from "./logos/ari";
 export { default as BOS } from "./logos/bos";
+export { default as BUF } from "./logos/buf";
 export { default as CAR } from "./logos/car";
 export { default as CBJ } from "./logos/cbj";
 export { default as CGY } from "./logos/cgy";

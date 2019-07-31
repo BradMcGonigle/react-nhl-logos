@@ -4,7 +4,7 @@
 
 > React components for NHL team logos
 
-![National Hockey League Logos](https://user-images.githubusercontent.com/115338/62234800-6ce7a780-b399-11e9-84da-f94bcd7c73f2.jpg)
+![National Hockey League Logos](https://user-images.githubusercontent.com/115338/62236549-4cb9e780-b39d-11e9-9562-a7173ec08c68.jpg)
 
 ## Install
 

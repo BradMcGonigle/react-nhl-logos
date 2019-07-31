@@ -9,6 +9,7 @@ type Logo = ComponentType<Props>;
 export const ANA: Logo;
 export const ARI: Logo;
 export const BOS: Logo;
+export const BUF: Logo;
 export const CAR: Logo;
 export const CBJ: Logo;
 export const CGY: Logo;
