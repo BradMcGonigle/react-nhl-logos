@@ -13,6 +13,7 @@ export { default as FLA } from "./logos/fla";
 export { default as LAK } from "./logos/lak";
 export { default as MIN } from "./logos/min";
 export { default as MTL } from "./logos/mtl";
+export { default as NHL } from "./logos/nhl";
 export { default as NJD } from "./logos/njd";
 export { default as NSH } from "./logos/nsh";
 export { default as NYI } from "./logos/nyi";

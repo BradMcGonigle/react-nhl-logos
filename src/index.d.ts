@@ -21,6 +21,7 @@ export const FLA: Logo;
 export const LAK: Logo;
 export const MIN: Logo;
 export const MTL: Logo;
+export const NHL: Logo;
 export const NJD: Logo;
 export const NSH: Logo;
 export const NYI: Logo;
