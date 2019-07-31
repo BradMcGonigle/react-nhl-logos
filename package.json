@@ -10,7 +10,7 @@
     "build-prod": "rm -rf dist && babel src --out-dir dist --copy-files && rm -rf src"
   },
   "keywords": [
-    "nba"
+    "nhl"
   ],
   "repository": {
     "type": "git",
