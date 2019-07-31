@@ -1,5 +1,7 @@
 # React NHL Logos
 
+![npm](https://img.shields.io/npm/v/react-nhl-logos)
+
 > React components for NHL team logos
 
 ![National Hockey League Team Logos](https://user-images.githubusercontent.com/115338/62148345-84566000-b2c7-11e9-8eee-4d9652fc1d7e.png)
@@ -64,3 +66,7 @@ Results in
 ## Credits
 
 React NHL Logos was inspired by [React NBA Logos](https://github.com/ChrisKatsaras/react-nba-logos) by [Christopher Katsaras](https://github.com/ChrisKatsaras)
+
+## Copyrights
+
+NHL and the NHL Shield are registered trademarks of the National Hockey League. All NHL logos and marks and NHL team logos and marks depicted herein are the property of the NHL and the respective teams and may not be reproduced without the prior written consent of NHL Enterprises, L.P. © NHL. All Rights Reserved.
