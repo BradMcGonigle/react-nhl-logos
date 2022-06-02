@@ -30,6 +30,7 @@ export const NYR: Logo;
 export const OTT: Logo;
 export const PHI: Logo;
 export const PIT: Logo;
+export const SEA: Logo;
 export const SJS: Logo;
 export const STL: Logo;
 export const TBL: Logo;

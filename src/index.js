@@ -22,6 +22,7 @@ export { default as NYR } from "./logos/nyr";
 export { default as OTT } from "./logos/ott";
 export { default as PHI } from "./logos/phi";
 export { default as PIT } from "./logos/pit";
+export { default as SEA } from "./logos/sea";
 export { default as SJS } from "./logos/sjs";
 export { default as STL } from "./logos/stl";
 export { default as TBL } from "./logos/tbl";
