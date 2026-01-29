@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const TBL = props => {
-  const { size } = props;
+const TBL = ({ size = "100" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -25,10 +24,6 @@ const TBL = props => {
 
 TBL.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-TBL.defaultProps = {
-  size: "100"
 };
 
 export default TBL;

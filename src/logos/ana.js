@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const ANA = props => {
-  const { size } = props;
+const ANA = ({ size = "100" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -45,10 +44,6 @@ const ANA = props => {
 
 ANA.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-ANA.defaultProps = {
-  size: "100"
 };
 
 export default ANA;

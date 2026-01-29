@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const NJD = props => {
-  const { size } = props;
+const NJD = ({ size = "100" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -34,10 +33,6 @@ const NJD = props => {
 
 NJD.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-NJD.defaultProps = {
-  size: "100"
 };
 
 export default NJD;

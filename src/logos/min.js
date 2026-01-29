@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const MIN = props => {
-  const { size } = props;
+const MIN = ({ size = "100" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -37,10 +36,6 @@ const MIN = props => {
 
 MIN.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-MIN.defaultProps = {
-  size: "100"
 };
 
 export default MIN;

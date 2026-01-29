@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const EDM = props => {
-  const { size } = props;
+const EDM = ({ size = "100" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -65,10 +64,6 @@ const EDM = props => {
 
 EDM.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-EDM.defaultProps = {
-  size: "100"
 };
 
 export default EDM;

@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const VAN = props => {
-  const { size } = props;
+const VAN = ({ size = "100" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -49,10 +48,6 @@ const VAN = props => {
 
 VAN.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-VAN.defaultProps = {
-  size: "100"
 };
 
 export default VAN;

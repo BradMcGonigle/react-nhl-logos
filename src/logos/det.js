@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const DET = props => {
-  const { size } = props;
+const DET = ({ size = "100" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -53,10 +52,6 @@ const DET = props => {
 
 DET.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-DET.defaultProps = {
-  size: "100"
 };
 
 export default DET;

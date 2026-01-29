@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const STL = props => {
-  const { size } = props;
+const STL = ({ size = "100" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -33,10 +32,6 @@ const STL = props => {
 
 STL.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-STL.defaultProps = {
-  size: "100"
 };
 
 export default STL;

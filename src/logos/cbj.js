@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const CBJ = props => {
-  const { size } = props;
+const CBJ = ({ size = "100" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -61,10 +60,6 @@ const CBJ = props => {
 
 CBJ.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-CBJ.defaultProps = {
-  size: "100"
 };
 
 export default CBJ;

@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const VGK = props => {
-  const { size } = props;
+const VGK = ({ size = "100" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -50,10 +49,6 @@ const VGK = props => {
 
 VGK.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-VGK.defaultProps = {
-  size: "100"
 };
 
 export default VGK;

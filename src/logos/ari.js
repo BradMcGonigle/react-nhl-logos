@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const ARI = props => {
-  const { size } = props;
+const ARI = ({ size = "100" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -45,10 +44,6 @@ const ARI = props => {
 
 ARI.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-ARI.defaultProps = {
-  size: "100"
 };
 
 export default ARI;

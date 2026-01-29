@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const NSH = props => {
-  const { size } = props;
+const NSH = ({ size = "100" }) => {
   return (
     <svg
       enable-background="new 0 0 437.904 253.71"
@@ -129,10 +128,6 @@ const NSH = props => {
 
 NSH.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-NSH.defaultProps = {
-  size: "100"
 };
 
 export default NSH;

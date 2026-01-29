@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const WPG = props => {
-  const { size } = props;
+const WPG = ({ size = "100" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -45,10 +44,6 @@ const WPG = props => {
 
 WPG.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-WPG.defaultProps = {
-  size: "100"
 };
 
 export default WPG;

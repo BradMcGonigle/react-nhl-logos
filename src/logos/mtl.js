@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const MTL = props => {
-  const { size } = props;
+const MTL = ({ size = "100" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -37,10 +36,6 @@ const MTL = props => {
 
 MTL.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-MTL.defaultProps = {
-  size: "100"
 };
 
 export default MTL;
