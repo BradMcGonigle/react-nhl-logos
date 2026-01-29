@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const OTT = props => {
-  const { size } = props;
+const OTT = ({ size = "100" }) => {
   return (
     <svg
       enable-background="new 0 0 212.204 250"
@@ -49,10 +48,6 @@ const OTT = props => {
 
 OTT.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-OTT.defaultProps = {
-  size: "100"
 };
 
 export default OTT;

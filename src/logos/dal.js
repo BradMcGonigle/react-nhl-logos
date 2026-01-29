@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const DAL = props => {
-  const { size } = props;
+const DAL = ({ size = "100" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -37,10 +36,6 @@ const DAL = props => {
 
 DAL.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-DAL.defaultProps = {
-  size: "100"
 };
 
 export default DAL;

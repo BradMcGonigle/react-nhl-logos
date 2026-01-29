@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const CAR = props => {
-  const { size } = props;
+const CAR = ({ size = "100" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -45,10 +44,6 @@ const CAR = props => {
 
 CAR.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-CAR.defaultProps = {
-  size: "100"
 };
 
 export default CAR;

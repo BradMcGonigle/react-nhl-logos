@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const CHI = props => {
-  const { size } = props;
+const CHI = ({ size = "100" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -90,10 +89,6 @@ const CHI = props => {
 
 CHI.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-CHI.defaultProps = {
-  size: "100"
 };
 
 export default CHI;

@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const LAK = props => {
-  const { size } = props;
+const LAK = ({ size = "100" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -137,10 +136,6 @@ const LAK = props => {
 
 LAK.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-LAK.defaultProps = {
-  size: "100"
 };
 
 export default LAK;

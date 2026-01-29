@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const BUF = props => {
-  const { size } = props;
+const BUF = ({ size = "100" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -77,10 +76,6 @@ const BUF = props => {
 
 BUF.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-BUF.defaultProps = {
-  size: "100"
 };
 
 export default BUF;

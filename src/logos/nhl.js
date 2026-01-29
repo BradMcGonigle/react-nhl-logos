@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const NHL = props => {
-  const { size } = props;
+const NHL = ({ size = "100" }) => {
   return (
     <svg
       version="1.1"
@@ -85,10 +84,6 @@ const NHL = props => {
 
 NHL.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-NHL.defaultProps = {
-  size: "100"
 };
 
 export default NHL;
