@@ -9,13 +9,12 @@
 ## Install
 
 ```shell
-$ npm install react-nhl-logos
+npm install react-nhl-logos
 ```
 
 ## Usage
 
-```js
-import React from "react";
+```tsx
 import { DET } from "react-nhl-logos";
 
 const Example = () => {
@@ -25,10 +24,9 @@ const Example = () => {
 export default Example;
 ```
 
-or include all icons
+or include all logos
 
-```js
-import React from "react";
+```tsx
 import * as NHLLogos from "react-nhl-logos";
 
 const Example = () => {
@@ -42,15 +40,14 @@ export default Example;
 
 Size can be easily configured (Default of 100px)
 
-```js
-import React from "react";
+```tsx
 import { DET } from "react-nhl-logos";
 
 const Example = () => {
   return (
     <div>
       <DET size={60} />
-      <DET /> // Default of 100px
+      <DET /> {/* Default of 100px */}
       <DET size={140} />
     </div>
   );
@@ -62,6 +59,38 @@ export default Example;
 Results in
 
 <img width="406" alt="Detroit Red Wings" src="https://user-images.githubusercontent.com/115338/62148533-e1eaac80-b2c7-11e9-98e3-aab73b0e7885.png">
+
+## TypeScript
+
+This package includes TypeScript definitions. The `LogoProps` type is exported for use in your projects:
+
+```tsx
+import type { LogoProps } from "react-nhl-logos";
+```
+
+## Available Teams
+
+All 32 NHL teams are supported, plus the NHL league logo:
+
+| Team | Code | Team | Code |
+|------|------|------|------|
+| Anaheim Ducks | `ANA` | New Jersey Devils | `NJD` |
+| Arizona Coyotes | `ARI` | Nashville Predators | `NSH` |
+| Boston Bruins | `BOS` | New York Islanders | `NYI` |
+| Buffalo Sabres | `BUF` | New York Rangers | `NYR` |
+| Carolina Hurricanes | `CAR` | Ottawa Senators | `OTT` |
+| Columbus Blue Jackets | `CBJ` | Philadelphia Flyers | `PHI` |
+| Calgary Flames | `CGY` | Pittsburgh Penguins | `PIT` |
+| Chicago Blackhawks | `CHI` | Seattle Kraken | `SEA` |
+| Colorado Avalanche | `COL` | San Jose Sharks | `SJS` |
+| Dallas Stars | `DAL` | St. Louis Blues | `STL` |
+| Detroit Red Wings | `DET` | Tampa Bay Lightning | `TBL` |
+| Edmonton Oilers | `EDM` | Toronto Maple Leafs | `TOR` |
+| Florida Panthers | `FLA` | Utah Hockey Club | `UTA` |
+| Los Angeles Kings | `LAK` | Vancouver Canucks | `VAN` |
+| Minnesota Wild | `MIN` | Vegas Golden Knights | `VGK` |
+| Montréal Canadiens | `MTL` | Winnipeg Jets | `WPG` |
+| NHL Logo | `NHL` | Washington Capitals | `WSH` |
 
 ## Credits
 
