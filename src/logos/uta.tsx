@@ -7,7 +7,7 @@ const UTA = ({ size = 100, ...props }: LogoProps) => {
       height={size}
       width={size}
       version="1.1"
-      viewBox="0 0 389.53 286.07">
+      viewBox="0 0 389.53 286.07"
     >
       <defs>
         <style>
