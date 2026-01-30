@@ -86,7 +86,7 @@ All 32 NHL teams are supported, plus the NHL league logo:
 | Dallas Stars | `DAL` | St. Louis Blues | `STL` |
 | Detroit Red Wings | `DET` | Tampa Bay Lightning | `TBL` |
 | Edmonton Oilers | `EDM` | Toronto Maple Leafs | `TOR` |
-| Florida Panthers | `FLA` | Utah Hockey Club | `UTA` |
+| Florida Panthers | `FLA` | Utah Mammoth | `UTA` |
 | Los Angeles Kings | `LAK` | Vancouver Canucks | `VAN` |
 | Minnesota Wild | `MIN` | Vegas Golden Knights | `VGK` |
 | Montréal Canadiens | `MTL` | Winnipeg Jets | `WPG` |
