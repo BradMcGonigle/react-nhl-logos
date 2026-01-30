@@ -1,6 +1,6 @@
 {
   "name": "react-nhl-logos",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "React components for NHL team logos",
   "type": "module",
   "main": "./dist/index.cjs",
