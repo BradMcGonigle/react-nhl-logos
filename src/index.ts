@@ -28,6 +28,7 @@ export { default as SJS } from "./logos/sjs";
 export { default as STL } from "./logos/stl";
 export { default as TBL } from "./logos/tbl";
 export { default as TOR } from "./logos/tor";
+export { default as UTA } from "./logos/uta";
 export { default as VAN } from "./logos/van";
 export { default as VGK } from "./logos/vgk";
 export { default as WPG } from "./logos/wpg";

@@ -5,8 +5,8 @@ import * as Logos from "./index";
 describe("NHL Logo Components", () => {
   const logoNames = Object.keys(Logos).filter((key) => key !== "LogoProps");
 
-  it("should export 33 logo components", () => {
-    expect(logoNames).toHaveLength(33);
+  it("should export 34 logo components", () => {
+    expect(logoNames).toHaveLength(34);
   });
 
   it.each(logoNames)("should render %s logo with default size", (logoName) => {
